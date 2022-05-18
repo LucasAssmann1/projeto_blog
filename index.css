@@ -59,3 +59,28 @@ header .container {
     height: fit-content;
     padding: 0 100px;
 }
+
+header .container h1 {
+color: var(--begie);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    padding:  0 100px;
+    position: sticky;
+    top: 0;
+}
+
+nav img {
+    height: 45px;
+}
+
+nav ul a {
+    font: 24px;
+    color: var(--begie);
+    text-decoration: none;
+    margin: 0 35px;
+}
