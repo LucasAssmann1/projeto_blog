@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+:root {
+    --roxo: #363062;
+    --roxazul: #4D4C7D;
+    --roxinho: #827397;
+    --begie: #E9D5DA;
+}
+
+* {
+    box-sizing:  border-box;
+}
+
+html,body {
+    margin: 0;
+    background: var(--roxo);
+}
+
+body, button, input, select, textarea {
+    font-family: 'Comic Neue', cursive;
+    color: white;
+}
+
+h1 {
+    font-size: 43px;
+}
+
+h2 {
+    font-size: 24px;
+}
+/* define a margem e a gordura da fonte */
+h1, h2 {
+    margin: 0;
+    font-weight: 400;
+}
+
+p {
+    color: var(--begie);
+}
+
+button {
+    background: var(--begie);
+    border: 0;
+    border-radius: 10px;
+    padding: 8px 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header {
+    /* background: #827397; */
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    width: 30%;
+    height: fit-content;
+    padding: 0 100px;
+}
