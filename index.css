@@ -89,12 +89,31 @@ nav ul a {
     margin: 0 35px;
 }
 
-section {
-    background: purple;
-    height: 1000px;
+nav ul a svg{
+    display: none;
 }
 
+.about-me {
+    display: flex;
+    padding: 100px;
+}
+
+.about-me .container{
+    width: 50%;
+    padding-right: 50px;
+}
+
+.about-me .img-container img{
+    width: 50%;
+    height: 100%;
+}
+
+/* Responsividade para tablet */
 @media(max-width: 767px) {
+
+    nav ul a svg {
+        display: contents;
+    }
 
     header .container{
         width: 100%;
@@ -109,4 +128,39 @@ section {
     nav img {
         display: none;
     }
+}
+/* quando a tela for abaixo de 480px */
+
+@media (max-width: 480px) {
+    header .container{
+        padding: 0 40px;
+    }
+
+    nav {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        top: unset;
+        padding: 0 15px;
+    }
+
+    nav ul a {
+        font-size: 12px;
+    }
+
+    nav ul a {
+    position: sticky;
+    bottom: 40px;
+    width: 30px;
+    height: 30px;
+
+    }
+}
+
+nav ul svg {
+    height: 30px;
+    width: 30px;
+    left: -20px;
+    bottom: -5px;
+    position: relative;
 }
