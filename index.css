@@ -34,7 +34,10 @@ h1, h2 {
 }
 
 p {
+    position: static;
     color: var(--begie);
+    text-align: left;
+    font-size: -20px;
 }
 
 button {
@@ -69,6 +72,7 @@ color: var(--begie);
 }
 
 nav{
+    background-color: var(--roxazul);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,11 +94,28 @@ nav ul a {
 }
 
 nav ul a svg{
-    display: none;
+    color: var(--roxo);
 }
 
 .about-me {
     display: flex;
+    padding: 100px;
+}
+.servicos {
+    text-align: center;
+    display: center;
+    padding: 100px;
+}
+
+.portfolio {
+    text-align: center;
+    display: center;
+    padding: 100px;
+}
+
+.curriculo{
+    text-align: center;
+    display: center;
     padding: 100px;
 }
 
@@ -103,9 +124,211 @@ nav ul a svg{
     padding-right: 50px;
 }
 
-.about-me .img-container img{
-    width: 50%;
-    height: 100%;
+.img-container img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: 325px;
+    top: 25px;
+    
+}
+
+.about-me .img-border{
+    position: static;
+    background-color: #827397;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    top: 300px;
+
+}
+
+.servicos .img-border1{
+    position: static;
+    background-color: #827397;
+    width: 400px;
+    height: 530px;
+    border-radius: 50px ;
+   
+}
+
+.servicos .img-border2{
+    position: relative;
+    background-color: #E9D5DA;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    top: -430px;
+    left: 145px;
+}
+
+.servicos .img-border2 p{
+    text-align: center;
+    color: #363062;
+    font-size: large;
+}
+
+.servicos .img-border4 p{
+    text-align: center;
+    color: #363062;
+    font-size: large;
+}
+
+.servicos .img-border6 p{
+    text-align: center;
+    color: #363062;
+    font-size: large;
+}
+.img-border2 a svg{
+    position: static;
+    width: 120px;
+    height: 105px;
+}
+
+ .servicos .img-border3{
+    position: relative;
+    background-color: #827397;
+    width: 400px;
+    height: 530px;
+    border-radius: 50px;
+    left: 650px;
+    bottom: 660px;
+}
+
+.servicos .img-border4{
+    position: relative;
+    background-color: #E9D5DA;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    bottom: 1100px;
+    left: 780px;
+}
+
+.img-border4 a svg{
+    position: static;
+    width: 120px;
+    height: 105px;
+}
+
+.servicos .img-border5{
+    position: relative;
+    background-color: #827397;
+    width: 400px;
+    height: 530px;
+    border-radius: 50px;
+    left: 1250px;
+    bottom: 1310px;
+}
+
+.servicos .img-border6{
+    position: relative;
+    background-color: #E9D5DA;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    bottom: 1750px;
+    left: 1390px;
+}
+
+.img-border6 a svg{
+    position: static;
+    width: 120px;
+    height: 105px;
+}
+
+.portfolio .img-shinobu img{
+    position: static;
+    filter: blur(20px);
+}
+
+.portfolio .img-border7{
+    position: relative;
+    background-color: #4D4C7D;
+    width: 600px;
+    height: 700px;
+    bottom: 700px;
+    left: 500px;
+    opacity: 0.6;
+    border-radius: 20px;
+}
+
+.portfolio .img-portfolio{
+    position: relative;
+    border-radius: 50%;
+    width: 0px;
+    height: 2px;
+    left: 692px;
+    bottom: 1300px;
+}
+
+.portfolio .img-portfolio p{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    padding: 0px;
+}
+
+.curriculo a svg{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 500px;
+}
+
+.curriculo .curriculo-name p{
+    position: relative;
+    left: 900px;
+    font-size: 20px;
+}
+
+.contatos{
+    text-align: center;
+    display: center;
+    padding: 100px;
+}
+
+.contatos .icone1{
+    position: relative;
+    top: 20px;
+    background-color: #827397;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.contatos .icone1 img{
+    position: relative;
+    top: 20px;
+}
+
+.contatos .icone2{
+    position: relative;
+    background-color: #827397;
+    width: 150px;
+    height: 150px;
+    left: 750px;
+    bottom: -20px;
+    top: -100px;
+    border-radius: 50%;
+}
+.contatos .icone2 img{
+    position: relative;
+    top: 20px;
+}
+
+.contatos .icone3{
+    position: relative;
+    background-color: #827397;
+    width: 150px;
+    height: 150px;
+    left: 1500px;
+    bottom: 250px;
+    border-radius: 50%;
+}
+.contatos .icone3 img{
+    position: relative;
+    top: 20px;
 }
 
 /* Responsividade para tablet */
